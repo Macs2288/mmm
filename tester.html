@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content=" width=device-width, initial-scale=1.0" />
+    <title>AVAn Clicker</title>
+    <link rel="stylesheet" href="styler.css" />
+
+</head>
+<body>
+    <div class="game">
+        <div class="header">
+            <img class="coin" id="coin" src="217853.png" />
+            <h2 class="score" id="score">0</h2>
+        </div>
+
+        <div class="circle">
+            <img class="lion" id="circle" src="Firefly мал лев (1).jpg" />
+        </div>
+
+        <div class="slider-container">
+            <div class="slider" id="slider"><img class="moon" src="moon.svg" width="13" height="15" /></div>
+        </div>
+
+        <div id="energy">Energy: <span id="energyAmount">100</span></div>
+
+
+        <div id="energyBar">
+            <div id="energyLevel"></div>
+        </div>
+        <div class="button-container">
+            <!-- Заміна функцій переходу на openInNewWindow -->
+
+            <button class="nav-button" onclick="openInNewWindow('screen2.html')">
+                <img class="buttonimg" src="task-management.svg" width="30" height="30" />
+            </button>
+            <button class="nav-button" onclick="openInNewWindow('screen3.html')">
+                <img class="buttonimg" src="Home.svg" width="30" height="30" />
+            </button>
+            <button class="nav-button" onclick="openMineWindow()">
+                <img class="buttonimg" src="Mine.svg" width="30" height="30" />
+            </button>
+
+        </div>
+
+        
+
+
+
+
+
+    </div>
+
+
+    <script src="apper.js" defer></script>
+
+</body>
+
+
+
+
+
+
+</html>
